@@ -1,0 +1,8 @@
+### Start of "includeC.txt"
+
+text in "includeC.txt"
+text in "includeC.txt"
+text in "includeC.txt"
+text in "includeC.txt"
+
+### End of "includeC.txt"
