@@ -1,6 +1,6 @@
 import pathlib
 
-a_path = '/Users/henrikbrohenriksen/coding/python/projects/resolve_nastran_analysis_deck/a_deck.txt'
+a_path = '/Users/henrikbrohenriksen/coding/python/projects/resolve_nastran_analysis_deck/example/a_deck.txt'
 
 
 def write_to_file(file: pathlib.Path, data: str):

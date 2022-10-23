@@ -1,0 +1,90 @@
+#######
+Begin "a_deck.txt"
+#######
+
+
+text in "a_deck.txt" before "includeA.txt"
+
+$-----------------------------------------------------------------------------------------------------------------------------$
+$ Begin of file: /Users/henrikbrohenriksen/coding/python/projects/resolve_nastran_analysis_deck/example/folderA/includeA.txt
+$-----------------------------------------------------------------------------------------------------------------------------$
+
+### Start of "includeA.txt"
+
+text in "includeA.txt" before "includeAA.txt"
+text in "includeA.txt" before "includeAA.txt"
+
+$-----------------------------------------------------------------------------------------------------------------------------$
+$ Begin of file: /Users/henrikbrohenriksen/coding/python/projects/resolve_nastran_analysis_deck/example/folderA/subfolderAA/includeAA.txt
+$-----------------------------------------------------------------------------------------------------------------------------$
+
+### Start of "includeAA.txt"
+
+text in "includeAA.txt"
+text in "includeAA.txt"
+
+### End of "includeAA.txt"
+$-----------------------------------------------------------------------------------------------------------------------------$
+$ End of file: /Users/henrikbrohenriksen/coding/python/projects/resolve_nastran_analysis_deck/example/folderA/subfolderAA/includeAA.txt
+$-----------------------------------------------------------------------------------------------------------------------------$
+
+
+text in "includeA.txt" after "includeAA.txt"
+
+### End of "includeA.txt"
+$-----------------------------------------------------------------------------------------------------------------------------$
+$ End of file: /Users/henrikbrohenriksen/coding/python/projects/resolve_nastran_analysis_deck/example/folderA/includeA.txt
+$-----------------------------------------------------------------------------------------------------------------------------$
+
+
+text in "a_deck.txt" after "includeA.txt"
+
+text in "a_deck.txt" before "includeB.txt"
+
+$-----------------------------------------------------------------------------------------------------------------------------$
+$ Begin of file: /Users/henrikbrohenriksen/coding/python/projects/resolve_nastran_analysis_deck/example/folderB/includeB.txt
+$-----------------------------------------------------------------------------------------------------------------------------$
+
+### Start of "includeB.txt"
+
+text in "includeB.txt"
+text in "includeB.txt"
+text in "includeB.txt"
+
+### End of "includeB.txt"
+$-----------------------------------------------------------------------------------------------------------------------------$
+$ End of file: /Users/henrikbrohenriksen/coding/python/projects/resolve_nastran_analysis_deck/example/folderB/includeB.txt
+$-----------------------------------------------------------------------------------------------------------------------------$
+
+
+text in "a_deck.txt" after "includeB.txt"
+
+text in "a_deck.txt" before "includeC.txt"
+
+$-----------------------------------------------------------------------------------------------------------------------------$
+$ Begin of file: /Users/henrikbrohenriksen/coding/python/projects/resolve_nastran_analysis_deck/example/folderC/includeC.txt
+$-----------------------------------------------------------------------------------------------------------------------------$
+
+### Start of "includeC.txt"
+
+text in "includeC.txt"
+text in "includeC.txt"
+text in "includeC.txt"
+text in "includeC.txt"
+
+### End of "includeC.txt"
+$-----------------------------------------------------------------------------------------------------------------------------$
+$ End of file: /Users/henrikbrohenriksen/coding/python/projects/resolve_nastran_analysis_deck/example/folderC/includeC.txt
+$-----------------------------------------------------------------------------------------------------------------------------$
+
+
+text in "a_deck.txt" after "includeC.txt"
+
+
+#######
+End "a_deck.txt"
+#######
+$-----------------------------------------------------------------------------------------------------------------------------$
+$ End of file: /Users/henrikbrohenriksen/coding/python/projects/resolve_nastran_analysis_deck/example/a_deck.txt
+$-----------------------------------------------------------------------------------------------------------------------------$
+
